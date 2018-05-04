@@ -314,7 +314,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
         "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
         CODE_SIGN_STYLE = Automatic;
-        DEVELOPMENT_TEAM = "5Z97G9NZQ6";
+        DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
