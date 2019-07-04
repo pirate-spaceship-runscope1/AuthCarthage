@@ -15,26 +15,10 @@ xcuserdata/
 
 ## Other
 *.moved-aside
-*.xccheckout
-*.xcscmblueprint
-
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
+*.xcuserstate
 
 # Pods are ignored in the samples as all Pods & their dependencies are either
 # development Pods (this repo) or sourced from repos in the same organization.
-# Generally we recommend committing Pod artifacts to version control, read about
-# the pros & cons here:
+# Generally we recommend versioning Pods, see the pros & cons here:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 Pods
-
-# Carthage
-#
-# Add these lines if you want to avoid checking in source code from Carthage
-# dependencies. Generally we recommend committing Carthage artifacts to version
-# control.
-Carthage/Checkouts
-Carthage/Build

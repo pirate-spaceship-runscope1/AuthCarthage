@@ -2,11 +2,22 @@
 
 ## Setup & Open the Project
 
-You'll need to have [Carthage](https://github.com/Carthage/Carthage) installed
-in order to pull the AppAuth dependency.
+1. In the `Example-iOS_ObjC` folder, run the following command to install the
+AppAuth pod.
 
-So first run `carthage bootstrap` to build AppAuth framework then open the
-`Example.xcodeproj` file.
+```
+pod install
+```
+
+2. Open the `Example-iOS_ObjC.xcworkspace` workspace.
+
+```
+open Example-iOS_ObjC.xcworkspace
+```
+
+This workspace is configured to include AppAuth via CocoaPods. You can also
+directly include AppAuth as a static library using the build targets in the
+`AppAuth.xcodeproj` project.
 
 ## Configuration
 
